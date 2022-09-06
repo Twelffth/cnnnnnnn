@@ -1,0 +1,35 @@
+h1 {
+    font-size: 25px !important;
+    border-radius: 5px !important;
+    font-family: 'Montserrat', sans-serif !important;
+    background-color: #ffffff79 !important;
+    font-weight: 800 !important;
+}
+
+button {
+    border-radius: 5px !important;
+    font-family: 'Montserrat', sans-serif !important;
+    background-color: #ffffff79 !important;
+    font-weight: 800 !important;
+
+
+}
+
+canvas {
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes example {
+    from {
+        box-shadow: 5px 5px 5px #443b34;
+    }
+
+    to {
+        box-shadow: 5px 5px 18px #7e7771;
+    }
+
+
+}
