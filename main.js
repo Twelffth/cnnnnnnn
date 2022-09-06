@@ -28,8 +28,8 @@ if(results.length>0) {
     console.log(results);
     console.log("nosex="+ nosex);
     console.log("nosey="+ nosey);
-    nosex=results[0].pose.nose.x;
-    nosey=results[0].pose.nose.y;
+    nosex=results[0].pose.nose.x-10;
+    nosey=results[0].pose.nose.y-10;
 }
 
 }
